@@ -1,7 +1,7 @@
 
 system Severn
 	pos -300 770
-	link Staena
+	link Valke
 	government Volkovi
 	object
 		sprite star/k0
@@ -47,11 +47,11 @@ planet Severni
 	description `Severni, which means "Northern" in the Volkovi language, is a pleasant, forested world with a temperate climate, friendly to warm-blooded beings such as humans, and the warm-blooded, doglike Volkovi. It is home to a wide array of wildlife such as native birds, fish, and giant six-legged insects that roam the forest floor.`
 	spaceport `The spaceport is rather large in human terms, but for the advanced civilization of the Volkovi it is relatively small. Still, it is clean, and handles its many canine visitors with ease.`
 
-system Staena
+system Valke
 	pos -310 850
 	link Severn
 	link Volkovi
-	link Sarkaya
+	link Handura
 	government Uninhabited
 	object
 		sprite star/k5
@@ -76,8 +76,8 @@ system Staena
 	
 system Volkovi
 	pos -320 910
-	link Staena
-	link Sarkaya
+	link Valke
+	link Handura
 	link Yug
 	government Volkovi
 	object
@@ -117,11 +117,11 @@ planet Volkov
 	spaceport `The spaceport is massive, the size of a small town. From here, millions of Volkovi merchant captains, civilians, warriors, and government officials are hustling and bustling to buy and sell commodities, meet friends or family, receive orders, and the like.`
 	spaceport `There are a lot of shops in the spaceport that sell various items, including meat, which seems to be the only thing they eat. Apparently, like dogs in human space, the Volkovi are carnivorous.`
 
-system Sarkaya
+system Handura
 	pos -410 900
-	link Staena
+	link Valke
 	link Volkovi
-	link Okolo
+	link Kelan
 	government Volkovi
 	object
 		sprite star/g5
@@ -131,7 +131,7 @@ system Sarkaya
 		sprite planet/dust3-b
 		distance 100
 		period 90
-	object Selka
+	object Rikha
 		sprite planet/forest6
 		distance 350
 		period 320
@@ -152,16 +152,16 @@ system Sarkaya
 		distance 2400
 		period 1170
 
-planet Selka
+planet Rikha
 	government Volkovi
 	attributes urban
 	landscape land/forest4
-	description `Selka is a wealthy and important Volkovi trade planet. Its surface is almost entirely forested, and the Volkovi do not wish to disturb this forest, so they build their cities up high in the mountains where the trees cannot grow. The weather is pleasant, with very little temperature variation from day to night, and it is almost always warm along the equator due to its lack of an axial tilt.`
-	spaceport `Selka's spaceport is huge, fancy, and generously decorated in a way that is appealing to the Volkovi. The restaraunts serve very fine food, and the hotel rooms are comfortable. Clearly, this is a very rich planet.`
+	description `Rikha is a wealthy and important Volkovi trade planet. Its surface is almost entirely forested, and the Volkovi do not wish to disturb this forest, so they build their cities up high in the mountains where the trees cannot grow. The weather is pleasant, with very little temperature variation from day to night, and it is almost always warm along the equator due to its lack of an axial tilt.`
+	spaceport `Rikha's spaceport is huge, fancy, and generously decorated in a way that is appealing to the Volkovi. The restaraunts serve very fine food, and the hotel rooms are comfortable. Clearly, this is a very rich planet.`
 
-system Okolo
+system Kelan
 	pos -510 870
-	link Sarkaya
+	link Handura
 	link Avalagsen
 	link Hamarr
 	government Volkovi
@@ -173,7 +173,7 @@ system Okolo
 		sprite planet/mercury
 		distance 200
 		period 60
-	object Hav
+	object Merin
 		sprite planet/water1
 		distance 400
 		period 370
@@ -194,15 +194,15 @@ system Okolo
 			distance 400
 			period 50
 
-planet Hav
+planet Merin
 	government Volkovi
 	landscape land/sea10-sfiera
-	description `Hav's surface is covered entirely in oceans, and it has a cool climate. All of the Volkovi cities on this planet are floating on the oceans or sometimes in the sky, and the view from their decks is truly stunning: the sea, stretching away into the distance, gives you the impression of infinity, and also makes you feel isolated.`
+	description `Merin's surface is covered entirely in oceans, and it has a cool climate. All of the Volkovi cities on this planet are floating on the oceans or sometimes in the sky, and the view from their decks is truly stunning: the sea, stretching away into the distance, gives you the impression of infinity, and also makes you feel isolated.`
 	spaceport `This city's spaceport bar has one wall open to the outside, letting the cool, salty sea breeze wash over you. You stare at it while you eat, fascinated by its size, which escapes your imagination even despite all your time spent in space.`
 
 system Avalagsen
 	pos -560 770
-	link Okolo
+	link Kelan
 	government Volkovi
 	object
 		sprite star/k0
@@ -212,7 +212,7 @@ system Avalagsen
 		sprite planet/dust6
 		distance 100
 		period 20
-	object Valamende
+	object Kolia
 		sprite planet/cloud7-b
 		distance 350
 		period 430
@@ -229,15 +229,15 @@ system Avalagsen
 			distance 300
 			period 80
 
-planet Valamende
+planet Kolia
 	government Volkovi
 	landscape land/water0
-	description `Valamende is a prosperous colony world with a pleasant, temperate climate. Its main industry is farming, but there is a popular trade center and several mining settlements, also. It is a truly diverse world, with many species of native wildlife and plants, including fish, birds, and several kinds of insect-like mammals that are hunted for food.`
-	spaceport `Valamende's spaceport is a raised stone platform located outside the planet's largest village; this is still a developing world. As you walk around the village, you come to the town square: it is a huge outdoor marketplace, selling everything from fresh meat to clothing to various handheld gadgets that only the Volkovi seem to understand how to use.`
+	description `Kolia is a prosperous colony world with a pleasant, temperate climate. Its main industry is farming, but there is a popular trade center and several mining settlements, also. It is a truly diverse world, with many species of native wildlife and plants, including fish, birds, and several kinds of insect-like mammals that are hunted for food.`
+	spaceport `Kolia's spaceport is a raised stone platform located outside the planet's largest village; this is still a developing world. As you walk around the village, you come to the town square: it is a huge outdoor marketplace, selling everything from fresh meat to clothing to various handheld gadgets that only the Volkovi seem to understand how to use.`
 
 system Hamarr
 	pos -550 970
-	link Okolo
+	link Kelan
 	government Uninhabited
 	object
 		sprite star/f5-old
