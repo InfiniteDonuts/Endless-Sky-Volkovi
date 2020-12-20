@@ -1,0 +1,6 @@
+
+government "Volkovi"
+    swizzle 4
+    color .5 0 .5
+    "player reputation" 0.1
+    language "Volkov"
