@@ -75,7 +75,7 @@ system Staena
 		period 12400
 	
 system Volkovi
-	pos -310 900
+	pos -320 910
 	link Staena
 	link Sarkaya
 	link Yug
