@@ -112,7 +112,7 @@ planet Volkov
 	government Volkovi
 	attributes urban
 	landscape land/fields8
-	description `This is the homeworld of the Volkovi and thus their capital, where the doglike species rule their empire. It is a beautiful grassland planet inhabited by large, gentle herbivore that the Volkovi hunt and eat. You see in the spaceport restaurant that it is a popular dish.`
+	description `This is the homeworld of the Volkovi and thus their capital, where the doglike species rule their small empire. It is a beautiful grassland planet inhabited by large, gentle herbivore that the Volkovi hunt and eat. You see in the spaceport restaurant that it is a popular dish.`
 	spaceport `The spaceport is massive, the size of a small town. From here, millions of Volkovi merchant captains, civilians, warriors, and government officials are hustling and bustling to buy and sell commodities, meet friends or family, receive orders, and the like.`
 	spaceport `There are a lot of shops in the spaceport that sell various items, including meat, which seems to be the only thing they eat. Apparently, like dogs in human space, the Volkovi are carnivorous.`
 
