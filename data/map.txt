@@ -78,7 +78,6 @@ system Volkovi
 	pos -320 910
 	link Valke
 	link Handura
-	link Yug
 	government Volkovi
 	object
 		sprite star/giant
