@@ -96,6 +96,103 @@ system Handura
 		distance 2400
 		period 1170
 
+system "Haru Volkovi"
+	pos -300 950
+	link Volkovi
+	government Quarg
+	object
+		sprite star/k0
+		period 10
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 20
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 40
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 60
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 80
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 100
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 120
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 140
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 160
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 180
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 200
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 220
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 240
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 260
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 280
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 300
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 320
+	object "Volkovi Kari"
+		sprite planet/ringworld
+		distance 812
+		period 360
+		offset 340
+
 system Kelan
 	pos -510 870
 	link Handura
@@ -203,6 +300,7 @@ system Volkovi
 	pos -320 910
 	link Valke
 	link Handura
+	link "Haru Volkovi"
 	government Volkovi
 	object
 		sprite star/giant
@@ -266,3 +364,11 @@ planet Volkov
 	description `This is the homeworld of the Volkovi and thus their capital, where the doglike species rule their small empire. It is a beautiful grassland planet inhabited by large, gentle herbivore that the Volkovi hunt and eat. You see in the spaceport restaurant that it is a popular dish.`
 	spaceport `The spaceport is massive, the size of a small town. From here, millions of Volkovi merchant captains, civilians, warriors, and government officials are hustling and bustling to buy and sell commodities, meet friends or family, receive orders, and the like.`
 	spaceport `There are a lot of shops in the spaceport that sell various items, including meat, which seems to be the only thing they eat. Apparently, like dogs in human space, the Volkovi are carnivorous.`
+
+planet "Volkovi Kari"
+	government Quarg
+	attributes quarg station
+	landscape land/station2
+	description `This is the Quarg ringworld that was built to observe the Volkovi species' evolution. Per the Quarg's stunning construction capabilities, the ringworld is massive; there are likely billions or even trillions of Quarg that live here. As you explore the station, you can see all the living quarters, shops, docking bays, and food-production facilities. The sheer size of the station staggers your senses.`
+	spaceport `Most human stations barely have enough room for the biggest ships to dock. However, this Quarg ringworld tucks even the massive Volkovi battle dreadnaughts neatly into a corner of its hangar. Clearly, this station is beyond any construction capabilities of humans.`
+	spaceport `    From what you have heard, the Volkovi are a proud and fearless warrior species. However, when you walk the hallways of this station, you can see various doglike aliens speaking with Quarg. You are not good at reading their canine faces, but from what you can tell, they seem to be subdued or scared: unlike any emotion you have ever seen them display. Clearly, the Volkovi are terrified of the Quarg for some reason.`
