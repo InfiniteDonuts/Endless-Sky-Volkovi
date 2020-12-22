@@ -172,13 +172,6 @@ system Severn
 		distance 2600
 		period 28900
 
-planet Severni
-	government Volkovi
-	attributes farming
-	landscape land/forest2
-	description `Severni, which means "Northern" in the Volkovi language, is a pleasant, forested world with a temperate climate, friendly to warm-blooded beings such as humans, and the warm-blooded, doglike Volkovi. It is home to a wide array of wildlife such as native birds, fish, and giant six-legged insects that roam the forest floor.`
-	spaceport `The spaceport is rather large in human terms, but for the advanced civilization of the Volkovi it is relatively small. Still, it is clean, and handles its many canine visitors with ease.`
-
 system Valke
 	pos -310 850
 	link Severn
