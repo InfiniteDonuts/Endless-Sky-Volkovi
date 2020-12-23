@@ -28,10 +28,96 @@ system Avalagsen
 			distance 300
 			period 80
 
+system Kagil
+	pos -170 900
+	link Koig
+	link Lolev
+	government Volkovi
+	object
+		sprite star/k0-old
+		distance 0
+		period 10
+	object
+		sprite planet/dust4
+		distance 100
+		period 120
+	object
+		sprite planet/desert3
+		distance 400
+		period 320
+	object
+		sprite planet/gas2
+		distance 750
+		period 450
+	object
+		sprite planet/gas6
+		distance 1700
+		period 900
+		object
+			sprite planet/dust0
+			distance 300
+			period 50
+		object
+			sprite planet/dust7
+			distance 500
+			period 80
+
+system Koig
+	pos -220 860
+	link Valke
+	link Volkovi
+	link Kagil
+	government Volkovi
+	object
+		sprite star/f5
+		distance 0
+		period 10
+	object
+		sprite planet/lava1
+		distance 300
+		period 90
+	object
+		sprite planet/gas1
+		distance 700
+		period 700
+	object Leitu
+		sprite planet/desert7-b
+		distance 1300
+		period 900
+	object
+		sprite planet/dust2
+		distance 1800
+		period 1400
+
+system Lolev
+	pos -100 860
+	link Kagil
+	government Volkovi
+	object
+		sprite star/g0 
+		distance 0
+		period 10
+	object
+		sprite planet/rock3
+		distance 400
+		period 300
+	object
+		sprite planet/rock2 
+		distance 800
+		period 700
+	object
+		sprite planet/rock1
+		distance 1200
+		period 1200
+	object
+		sprite planet/gas9
+		distance 1700
+		period 2400
+
 system Hamarr
 	pos -550 970
 	link Kelan
-	government Uninhabited
+	government Volkovi
 	object
 		sprite star/f5-old
 		distance 0
@@ -272,9 +358,9 @@ system Severn
 system Valke
 	pos -310 850
 	link Severn
-	link Volkovi
+	link Koig
 	link Handura
-	government Uninhabited
+	government Volkovi
 	object
 		sprite star/k5
 		distance 0
@@ -298,8 +384,8 @@ system Valke
 	
 system Volkovi
 	pos -320 910
-	link Valke
 	link Handura
+	link Koig
 	link "Haru Volkovi"
 	government Volkovi
 	object
@@ -337,6 +423,11 @@ planet Kolia
 	description `Kolia is a prosperous colony world with a pleasant, temperate climate. Its main industry is farming, but there is a popular trade center and several mining settlements, also. It is a truly diverse world, with many species of native wildlife and plants, including fish, birds, and several kinds of insect-like mammals that are hunted for food.`
 	spaceport `Kolia's spaceport is a raised stone platform located outside the planet's largest village; this is still a developing world. As you walk around the village, you come to the town square: it is a huge outdoor marketplace, selling everything from fresh meat to clothing to various handheld gadgets that only the Volkovi seem to understand how to use.`
 
+planet Leitu
+	government Volkovi
+	landscape land/badlands4
+	description `When the Volkovi species first took to the stars, this was the first habitable planet they settled. After exploration ships uncovered more pleasant worlds elsewhere, the Volkovi mostly abandoned this planet except for a few mining outposts. Now, thousands of years after the planet was nearly abandoned, there are no refueling, trading, or job services available.`
+
 planet Merin
 	government Volkovi
 	landscape land/sea10-sfiera
@@ -348,7 +439,7 @@ planet Rikha
 	attributes urban
 	landscape land/forest4
 	description `Rikha is a wealthy and important Volkovi trade planet. Its surface is almost entirely forested, and the Volkovi do not wish to disturb this forest, so they build their cities up high in the mountains where the trees cannot grow. The weather is pleasant, with very little temperature variation from day to night, and it is almost always warm along the equator due to its lack of an axial tilt.`
-	spaceport `Rikha's spaceport is huge, fancy, and generously decorated in a way that is appealing to the Volkovi. The restaraunts serve very fine food, and the hotel rooms are comfortable. Clearly, this is a very rich planet.`
+	spaceport `Rikha's spaceport is huge, fancy, and generously decorated in a way that is appealing to its canine inhabitants. The restaraunts serve rare meats that only the richer canine aliens can afford to eat, and the hotel rooms are comfortable -- at least, for a Volkovi. Apparently, this is a very rich planet.`
 
 planet Severni
 	government Volkovi
